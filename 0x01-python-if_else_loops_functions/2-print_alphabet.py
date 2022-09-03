@@ -1,3 +1,3 @@
 #!/usr/bin/python3
-msg = "abcdefghijklmnopqrstuvwxyz"
-print("{}".format(msg), end = "")
+for j in range(97,123): 
+        print(chr(j),end='')
