@@ -1,5 +1,5 @@
 #!/bin/python3
 
 class Rectangle:
-    """Representation of a rectangle"""
+    """Rectangle - shape with parallel sides equal and perpendicular one not"""
     pass
