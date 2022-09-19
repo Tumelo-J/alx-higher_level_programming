@@ -1,5 +1,5 @@
 #!/bin/python3
 
-Class Rectangle:
+class Rectangle:
     """Representation of a rectangle"""
     pass
