@@ -2,9 +2,7 @@
 
 class Rectangle:
     def __init__(self, width=0, height=0):
-        self._width
-        self._height
-
+        pass
     def width(self, value):
         if type(value) != int:
             raise TypeError("width must be an integer")
