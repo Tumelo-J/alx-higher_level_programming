@@ -2,6 +2,5 @@
 
 def print_matrix_integer(matrix=[[]]):
     for vector in matrix:
-        for number in vector:
-            print("{:d}".format(number), end=" ")
-        print("\n")
+        for i, number in enumerate(vector):
+            print("{:d}".format(number), end=" " if (i + 1) % 3 else "\n")
