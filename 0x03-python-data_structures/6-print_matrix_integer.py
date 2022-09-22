@@ -2,6 +2,7 @@
 
 def print_matrix_integer(matrix=[[]]):
     if matrix == [[]]:
+        print("")
         return
     for vector in matrix:
         columns = len(vector)
